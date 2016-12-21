@@ -4,7 +4,6 @@ const BabiliPlugin=require('babili-webpack-plugin');
 const HtmlWebpackPlugin=require('html-webpack-plugin');
 const webpackMerge=require('webpack-merge');
 const  helpers=require('./helpers.js');
-const AotPlugin = require('@ngtools/webpack').AotPlugin;
 module.exports=function(){
 	return {
 		entry:{
