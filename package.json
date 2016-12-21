@@ -8,7 +8,6 @@
     "ngcStart": "ngc -p tsconfig-aot.json",
     "start": "webpack-dev-server --inline --progress",
     "rollupStart": "rollup -c rollup-config.js",
-    "ngcStart2": "tsc -p tsconfig-tsc.json",
     "server": "node config/prod-server.js",
     "webpack-pro": "webpack --config webpack.pro.config.js"
   },
