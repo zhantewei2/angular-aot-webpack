@@ -1,0 +1,75 @@
+{
+  "name": "typescript-webpack-tree-shaking",
+  "version": "1.0.0",
+  "description": "Tree-shaking example with Typescript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf src/*.js src/*/*.js src/*.map src/*/*.map src/*/*.ngfactory.ts src/*.ngfactory.ts src/*.json src/*/*.json src/*/*.d.ts src/*.d.ts",
+    "ngcStart": "ngc -p tsconfig-aot.json",
+    "start": "webpack-dev-server --inline --progress",
+    "rollupStart": "rollup -c rollup-config.js",
+    "ngcStart2": "tsc -p tsconfig-tsc.json",
+    "server": "node config/prod-server.js",
+    "webpack-pro": "webpack --config webpack.pro.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacksonic/typescript-webpack-tree-shaking.git"
+  },
+  "keywords": [
+    "tree-shaking",
+    "typescript",
+    "webpack"
+  ],
+  "author": {
+    "name": "ztw",
+    "email": "zhantewei@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.3.1",
+    "@angular/forms": "^2.3.1",
+    "@angular/router": "^3.3.1",
+    "angular-router-loader": "^0.4.0",
+    "awesome-typescript-loader": "^3.0.0-beta.17",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^2.3.1",
+    "@angular/compiler-cli": "^2.3.1",
+    "@angular/core": "^2.3.1",
+    "@angular/platform-browser": "^2.3.1",
+    "@angular/platform-browser-dynamic": "^2.3.1",
+    "@angular/tsc-wrapped": "^0.5.0",
+    "@ngtools/webpack": "^1.2.1",
+    "@types/node": "^6.0.52",
+    "angular": "^1.6.0",
+    "angular2-load-children-loader": "^0.1.3",
+    "angular2-template-loader": "^0.6.0",
+    "angular2-webpack2-lazy-children-loader": "^1.0.1",
+    "babel-cli": "^6.18.0",
+    "babel-core": "6.18.2",
+    "babel-preset-env": "^1.1.4",
+    "babel-preset-latest": "6.16.0",
+    "babili": "0.0.9",
+    "babili-webpack-plugin": "0.0.7",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "http-server": "0.9.0",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "rollup": "^0.37.0",
+    "rollup-plugin-commonjs": "^6.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rxjs": "^5.0.0-rc.4",
+    "ts-helpers": "^1.1.2",
+    "ts-loader": "1.2.2",
+    "typescript": "2.0.10",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^1.1.1",
+    "zone.js": "^0.7.2"
+  }
+}
