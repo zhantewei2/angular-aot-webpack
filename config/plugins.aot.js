@@ -1,5 +1,5 @@
 let webpack=require('webpack');
-const BabiliPlugin=require('babili-webpack-plugin');
+
 const HtmlWebpackPlugin=require('html-webpack-plugin');
 const helpers=require('./helpers');
 
