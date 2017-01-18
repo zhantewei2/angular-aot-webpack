@@ -1,6 +1,6 @@
 const commonConfig=require('./webpack.common.js');
 const webpack=require('webpack');
-const BabiliPlugin=require('babili-webpack-plugin');
+
 const HtmlWebpackPlugin=require('html-webpack-plugin');
 const webpackMerge=require('webpack-merge');
 const  helpers=require('./helpers.js');
