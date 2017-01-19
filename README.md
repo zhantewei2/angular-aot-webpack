@@ -13,4 +13,4 @@ Or suche use:
 -----
     app.use(mount('/router',angularProxy('./dist')));
 
-notice:index.html :_<base href='/router/'>_;
+notice:index.html :<base href='/router/'>;
