@@ -9,9 +9,9 @@ use for koa2:
 
 './dist' is your directory of angular2 project that the defualt file is index.html.
 
-Or suche use:
+And suche use:
 -----
     app.use(mount('/router',angularProxy('./dist')));
 
-notice:index.html :
-    base href='/router/' ;
+notice:index.html:
+        app.
