@@ -11,7 +11,8 @@ use for koa2:
 
 And suche use:
 -----
-    app.use(mount('/router',angularProxy('./dist')));
-index.html:
+    app.js:      app.use(mount('/router',angularProxy('./dist')));
+    index.html:  <base href='/router/'>
+
 -----
-    base href='/router/'
+    
