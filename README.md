@@ -2,7 +2,7 @@
 angular-aot-webpack
 aot-test
 -----
-(async/await function)
+async/await function(required babel)
 use for koa2:
 -----
     app.js:
