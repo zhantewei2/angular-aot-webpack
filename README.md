@@ -12,8 +12,10 @@ use for koa2:
 
 And suche use:
 -----
-    app.js:              app.use(mount('/router',angularProxy('./dist')));
-    ./dist/index.html:  <base href='/router/'>
+    app.js:             
+        app.use(mount('/router',angularProxy('./dist')));
+    ./dist/index.html:  
+        <base href='/router/'>
 
 -----
     
