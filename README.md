@@ -2,6 +2,7 @@
 angular-aot-webpack
 aot-test
 -----
+(async/await function)
 use for koa2:
 -----
     app.js:
@@ -19,4 +20,4 @@ And suche use:
         <base href='/router/'>
 
 -----
-    
+use async/await 
