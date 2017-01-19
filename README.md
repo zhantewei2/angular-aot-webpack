@@ -8,7 +8,7 @@ use for koa2:
         const angularProxy=require('koa-angular-proxy');
         app.use(angularProxy('./dist'))
 
-'./dist' is your directory of angular2 project that the defualt file is index.html.
+'./dist' is your directory of angular2 project that the entry file is index.html.
 
 And suche use:
 -----
