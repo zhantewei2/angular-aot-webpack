@@ -1,6 +1,6 @@
 {
   "name": "ztw",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "none",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,10 @@
     "start": "webpack-dev-server --inline --progress",
     "webpack-pro": "webpack --config ./config/webpack.pro.js",
     "server-pro": "supervisor ./config/prod-server/main.js",
-    "ngcStart": "ngc -p tsconfig-aot.json"
+    "ngcStart": "ngc -p tsconfig-aot.json",
+    "webpack-prod":"npm run ngcStart | npm run webpack-pro "
   },
-   "author": {
-     "name": "ztw",
-     "email": "zhantewei@gmail.com"
-  },
+  "author": "ztw",
   "license": "ISC",
   "dependencies": {
     "@angular/common": "^2.4.6",
