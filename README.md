@@ -9,7 +9,7 @@ ProdServer default of url is `'/router/'`,And you can edit it what is in the `'.
 
 ####dev:
 
-     npm run start
+     npm start
 host location:localhost:3000;
 <br>
 ####prod:
