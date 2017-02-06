@@ -3,4 +3,4 @@
 rename `'babelrc'` to `'.babelrc'`
 
 
-koaServer default of url : '/router/'
+koaServer default of url : `'/router/'`
