@@ -13,4 +13,7 @@ dev:
 
 <br>
 prod:
+
+     npm run prod
+     npm run server-prod
     
