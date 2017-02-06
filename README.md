@@ -1,3 +1,3 @@
 # angular-aot-webpack
 
-# rename 'babelrc' to '.babelrc'
+-- rename 'babelrc' to '.babelrc'
