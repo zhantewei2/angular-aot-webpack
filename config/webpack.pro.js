@@ -11,7 +11,7 @@ module.exports=function(){
 			'p3':'./src/main.aot.ts'
 		},
 		output:{
-			path:'dist',
+			path:'dest',
 			filename:'[name].bundle.js',
 			chunkFilename:'[id].chunk.js'
 		},
