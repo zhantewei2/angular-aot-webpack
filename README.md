@@ -1,6 +1,6 @@
 # angular-aot-webpack
 
-rename `'babelrc'` to `'.babelrc'`
+You should rename `'babelrc'` to `'.babelrc'` before you run the program;
 
 
-koaServer default of url : `'/router/'`
+ProdServer default of url : `'/router/'`
