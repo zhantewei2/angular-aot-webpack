@@ -5,7 +5,7 @@ const helpers=require('./helpers');
 
 module.exports=[
 			new HtmlWebpackPlugin({
-				template:helpers.root('src','index.html'),
+				template:helpers.root('src','index-pro.html'),
 				favicon:helpers.root('src','favicon.ico'),
 				title:'my test',
 				chunks:['p1','p2','p3'],
