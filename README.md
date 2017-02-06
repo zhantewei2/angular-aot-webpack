@@ -10,4 +10,8 @@ ProdServer default of url is `'/router/'`,And you can edit it what is in the `'.
 dev:
     ````
     npm run start
+
     ````
+<br>
+prod:
+    
