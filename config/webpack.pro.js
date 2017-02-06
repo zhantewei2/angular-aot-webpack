@@ -1,6 +1,5 @@
 const commonConfig=require('./webpack.common.js');
 const webpack=require('webpack');
-
 const HtmlWebpackPlugin=require('html-webpack-plugin');
 const webpackMerge=require('webpack-merge');
 const  helpers=require('./helpers.js');
@@ -12,7 +11,7 @@ module.exports=function(){
 			'p3':'./src/main.aot.ts'
 		},
 		output:{
-			path:'dest',
+			path:'dist',
 			filename:'[name].bundle.js',
 			chunkFilename:'[id].chunk.js'
 		},
