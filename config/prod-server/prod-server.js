@@ -13,8 +13,12 @@ var rooter=function(...args){
 }
 app.kets=['myKey'];
 app.use(async(ctx,next)=>{
-	ctx.cookies.set('XSRF-TOKEN','mykey',{httpOnly:false})
-	await next();
+	ctx.cookies.set('XSRF-TOKEN','mykey',{httpOnly:false});
+	if(ctx.path==='/'){
+		ctx.body='<a href="./router">gotoZTWAngular</a>';
+	}else{
+		await next();
+	}
 })
 router.get('/get',async(ctx)=>{
 	ctx.response.set('Access-Control-Allow-Origin','http://localhost:3001');
