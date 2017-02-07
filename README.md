@@ -20,5 +20,7 @@ Host Location:`localhost:3000`;
 Host Location:`localhost:3001`;
 
 When you run `npm run webpack-pro` ,
+<br>
 You will get an Error: `Cannot find name 'System'`
-This is normal,because i load a lazyLoadModule in `router.module.ts`
+<br>
+This is normal,because I load a lazyLoadModule in `router.module.ts`
