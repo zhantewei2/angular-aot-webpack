@@ -16,10 +16,8 @@ module.exports=function(path,dirname=''){
 			})
 		}();
 		if(fileExist){
-			console.log('exist',ctx.path)
 			await send(ctx,path+ctx.path,{root:dirname});
 		}else{
-			console.log(dirname)
 			await send(ctx,path+'/index.html',{root:dirname});
 		}
 	}
