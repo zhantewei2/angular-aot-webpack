@@ -13,6 +13,7 @@ var rooter=function(...args){
 }
 app.kets=['myKey'];
 app.use(async(ctx,next)=>{
+	ctx.response.set('Access-Control-Allow-Origin','http://localhost:3000');
 	ctx.cookies.set('XSRF-TOKEN','mykey',{httpOnly:false});
 	if(ctx.path==='/'){
 		ctx.body='<a href="./router">gotoZTWAngular</a>';
@@ -27,6 +28,6 @@ router.get('/get',async(ctx)=>{
 })
 app.use(mount('/router',router.routes()));
 app.use(mount('/router',router.allowedMethods()));
-app.use(mount('/router',frontEndComponent('dist',path.join(__dirname,'../../'))));
+app.use(mount('/router',frontEndComponent('dest',path.join(__dirname,'../../'))));
 app.listen(3001);
 }
