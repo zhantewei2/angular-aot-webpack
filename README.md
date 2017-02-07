@@ -14,7 +14,6 @@ Host Location:`localhost:3000`;
 <br>
 ####prod:
 
-     npm run prod
      npm run ngcStart
      npm run webpack-pro
      npm run server-prod
