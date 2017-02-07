@@ -10,7 +10,10 @@
     "server-prod": "supervisor ./config/prod-server/main.js",
     "ngcStart": "ngc -p tsconfig-aot.json"
   },
-  "author": "ztw",
+  "author": {
+    "name":"ztw",
+    "email":"zhantewei@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "@angular/common": "^2.4.6",
