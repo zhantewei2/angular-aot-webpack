@@ -17,6 +17,7 @@ Host Location:`localhost:3000`;
      npm run prod
      npm run ngcStart
      npm run webpack-pro
+     npm run server-prod
 Host Location:`localhost:3001`;
 
 When you run `npm run webpack-pro` ,
