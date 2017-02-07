@@ -24,3 +24,7 @@ When you run `npm run webpack-pro` ,
 You will get an Error: `Cannot find name 'System'`
 <br>
 This is normal,because I load a lazyLoadModule in `router.module.ts`
+<br>
+Please ignore it
+<br>
+The program can running normally
