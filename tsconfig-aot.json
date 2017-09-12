@@ -2,7 +2,6 @@
   "compilerOptions": {
     "outDir": "dist",
     "sourceMap": false,
-    //"noImplicitAny": true,
     "module": "es2015",
     "lib":["es2015","dom"],
     "target": "es5",
@@ -10,8 +9,6 @@
     "baseUrl":"./node_modules",
 
     "paths":{
-      "@ng-ztw":["../ngzModule"],
-      "*":["../ngzModule/*"]
     },
 
     "moduleResolution":"node",
@@ -21,15 +18,7 @@
 
   },
   "include": [
-    "demo/**/*.ts",
-    "ngzModule/**/*.ts"
-    /*
-    "./demo/src/main.ts",
-    "./demo/src/app/router1/router.module",
-    "./demo/src/app/router2/router.module",
-    "./demo/src/app/router2/directives-router.module",
-    "./demo/src/app/router2/expriment/expriment.module"
-    */
+    "demo/**/*.ts"
   ],
   "angularCompilerOptions":{
     "strictMetadataEmit":true
