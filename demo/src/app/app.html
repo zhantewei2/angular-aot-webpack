@@ -1,0 +1,20 @@
+<div class="container host-container">
+    <h1>Angular4 AOT Example</h1>
+
+    <nav>
+        <button (click)="entryRouter=false" class="btn btn-s" routerLink="/" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active">Back Home</button>
+        <button routerLinkActive="active" routerLink="child" class="btn btn-d">router</button>
+        <button routerLinkActive="active" routerLink="lazyChild" class="btn btn-d">loazy load router</button>
+    </nav>
+    <div [class.card-block]="entryRouter" >
+        <router-outlet (activate)="entryRouter=true"></router-outlet>
+    </div>
+    <div *ngIf="!entryRouter">
+    <table class="table my-2" >
+        <tr><td>dev:</td><td> npm run demo</td></tr>
+        <tr><td>prod:</td><td> npm run demo:prod</td></tr>
+
+    </table>
+    <a class="quote-d">---created by zhantewei</a>
+    </div>
+</div>

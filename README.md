@@ -1,30 +1,18 @@
-# angular-aot-webpack
-<br>
-You should rename `'babelrc'` to `'.babelrc'` before you run the program;
+Angular4-AOT-Example
+---
 
-<br>
-ProdServer default of url is `'/router/'`,And you can edit it what is in the `'./config/prod-server/prod-server.js'`
+1. dev:
+```
+ npm run demo
+```
 
-<br>
+2. aot prod:
+```
+ npm run demo:prod
 
-####dev:
+```
 
-     npm start
-Host Location:`localhost:3000`;
-<br>
-####prod:
+output Folder : `demo/dist`
 
-     npm run ngcStart
-     npm run webpack-pro
-     npm run server-prod
-Host Location:`localhost:3001`;
+### You can clone it ,Try it yourself;
 
-When you run `npm run webpack-pro` ,
-<br>
-You will get an Error: `Cannot find name 'System'`
-<br>
-This is normal,because I load a lazyLoadModule in `router.module.ts`
-<br>
-Please ignore it
-<br>
-The program can running normally
