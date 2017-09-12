@@ -7,7 +7,7 @@
     "demo": "webpack-dev-server --open",
     "demo:prod": "webpack --env.MODE=prod"
   },
-  "author": "",
+  "author": "zhantewei",
   "license": "ISC",
   "dependencies": {
     "@angular/animations": "^4.3.6",
