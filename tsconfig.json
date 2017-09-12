@@ -8,12 +8,9 @@
     "target": "es5",
     "baseUrl":"./node_modules",
     "paths":{
-      "@ng-ztw":["../ngzModule"],
-      "*":["../ngzModule/*"]
     },
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    //cannot find name 'require':
     "moduleResolution":"node"
   },
 
