@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "demo": "webpack-dev-server --open",
-    "demo:prod": "webpack --env.MODE=prod",
-    "ngz-d": "node_modules/.bin/ngc -p tsconfig-lib.json"
+    "demo:prod": "webpack --env.MODE=prod"
   },
   "author": "",
   "license": "ISC",
